@@ -1,7 +1,9 @@
 hypnotoad-server
 ================
 
-all glory to the hypnotoad
+*all glory to the hypnotoad*
+
+terminal-based implementation of _Everybody Loves Hypnotoad_ using [charm](https://github.com/substack/node-charm)
 
 getting started
 ---------------
