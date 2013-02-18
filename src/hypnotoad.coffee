@@ -54,7 +54,7 @@ module.exports = hypnotoad = (out) ->
   frame = 0
   renderFrame = ->
     eyes = eye_frames[frame]
-    draw eyes, palettes.eyes, 44, 4, 6
+    draw eyes, palettes.eyes, 41, 2, 6
     frame = (frame+1) % (eye_frames.length-1)
     charm.position cols, rows
 
