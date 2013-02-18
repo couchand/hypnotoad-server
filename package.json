@@ -20,7 +20,7 @@
       "url": "https://github.com/couchand/hypnotoad-server/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/hypnotoad-server",
+  "main": "lib/server",
   "engines": {
     "node": ">= 0.6.0"
   },

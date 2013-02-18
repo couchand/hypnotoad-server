@@ -7,7 +7,7 @@ getting started
 ---------------
 
 ```bash
-> coffee src/server.coffee
+> node lib/server.js
 ```
 
 then login with
@@ -19,13 +19,17 @@ then login with
 there is also a cli
 
 ```bash
-> coffee src/cli.coffee
+> node src/cli.js
 ```
 
 dependencies
 ------------
 
  * charm
+
+dev dependencies
+----------------
+
  * coffeescript
 
 inspired by
