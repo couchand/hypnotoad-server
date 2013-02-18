@@ -1,0 +1,28 @@
+{
+  "name": "hypnotoad-server",
+  "description": "Everybody loves Hypnotoad.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/couchand/hypnotoad-server",
+  "author": {
+    "name": "Andrew Couch",
+    "email": "andy@couchand.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/couchand/hypnotoad-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/couchand/hypnotoad-server/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/couchand/hypnotoad-server/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/hypnotoad-server",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "keywords": []
+}
