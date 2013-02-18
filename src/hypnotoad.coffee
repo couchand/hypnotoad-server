@@ -27,8 +27,8 @@ cols = bg_img[0].length
 
 palettes =
   bg: [72, 17, 23, 41, 25, 18]
-  toad: [222, 178, 58, 148, 244, 198]
-  eyes: [0,148,148,148] #[0, 88, 226, 144]
+  toad: [222, 178, 58, 154, 244, 198]
+  eyes: [0, 196, 190, 154, 52]
 
 draw = (img, palette, xoff=1, yoff=1, r=rows) ->
   old_color
