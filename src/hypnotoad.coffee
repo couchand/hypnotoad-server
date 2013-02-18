@@ -58,6 +58,4 @@ module.exports = hypnotoad = (out) ->
     frame = (frame+1) % (eye_frames.length-1)
     charm.position cols, rows
 
-  setInterval renderFrame, 100
-
-  return charm
+  return [charm, setInterval renderFrame, 100]

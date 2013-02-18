@@ -1,6 +1,6 @@
 hypnotoad = require './hypnotoad.coffee'
 
-charm = hypnotoad process
+[charm, interval] = hypnotoad process
 
 charm.removeAllListeners('^C')
 charm.on '^C', ->
