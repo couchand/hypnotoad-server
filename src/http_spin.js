@@ -1,5 +1,5 @@
 var http = require('http');
-var charmer = require('../');
+var charmer = require('charm');
 
 http.createServer(function (req, res) {
     res.setHeader('content-type', 'text/ansi');
