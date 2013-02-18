@@ -22,6 +22,7 @@ palettes =
   toad: [222, 142, 58, 144, 244, 198]
 
 draw = (img, palette) ->
+  old_color
   y = 0
   while y < rows
     x = 0
@@ -29,9 +30,15 @@ draw = (img, palette) ->
       color = img[y][x]
       if color && color.match /[0-9]/
         c = palette[parseInt color]
-        charm.position(x,y).background(c).write ' '
+        unless c is old_color
+          charm.background(c)
+          old_color = c
+        charm.write ' '
+      else
+        charm.position 1+x, 1+y
       ++x
     ++y
+    charm.position 1, 1+y
 
 draw bg_img, palettes.bg
 draw toad_img, palettes.toad
